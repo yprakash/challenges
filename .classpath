@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="modules/camunda/src/main/java"/>
+	<classpathentry kind="src" path="modules/camunda/src/main/resources"/>
+	<classpathentry kind="src" path="modules/corejava/src/main/java"/>
+	<classpathentry kind="src" path="modules/java-advanced/src/main/java"/>
+	<classpathentry kind="src" path="modules/javastats/src/main/java"/>
+	<classpathentry kind="src" path="modules/networking/src/main/java"/>
+
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-net/commons-net/3.6/commons-net-3.6.jar" sourcepath="M2_REPO/commons-net/commons-net/3.6/commons-net-3.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-math/2.2/commons-math-2.2.jar" sourcepath="M2_REPO/org/apache/commons/commons-math/2.2/commons-math-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar" sourcepath="M2_REPO/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-core/2.13.2/log4j-core-2.13.2.jar" sourcepath="M2_REPO/org/apache/logging/log4j/log4j-core/2.13.2/log4j-core-2.13.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29-sources.jar"/>
+
+	<!-- camunda direct dependencies -->
+	<classpathentry kind="var" path="M2_REPO/org/camunda/bpm/dmn/camunda-engine-dmn/7.11.0/camunda-engine-dmn-7.11.0.jar" sourcepath="M2_REPO/org/camunda/bpm/dmn/camunda-engine-dmn/7.11.0/camunda-engine-dmn-7.11.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/camunda/commons/camunda-commons-typed-values/1.7.1/camunda-commons-typed-values-1.7.1.jar" sourcepath="M2_REPO/org/camunda/commons/camunda-commons-typed-values/1.7.1/camunda-commons-typed-values-1.7.1-sources.jar"/>
+
+	<!-- https://mvnrepository.com/artifact/org.camunda.bpm.extension.dmn/dmn-xlsx-converter -->
+	<classpathentry kind="var" path="M2_REPO/de/odysseus/juel/juel/dmn-xlsx-converter-0.3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/odysseus/juel/juel/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/docx4j/docx4j/6.1.2/docx4j-6.1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.6/commons-io-2.6.jar" sourcepath="M2_REPO/commons-io/commons-io/2.6/commons-io-2.6-sources.jar"/>
+
+	<!-- camunda indirect dependencies to avoid java.lang.NoClassDefFoundError-->
+	<classpathentry kind="var" path="M2_REPO/de/odysseus/juel/juel/juel-impl-2.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/camunda/bpm/dmn/camunda-engine-feel-api/7.11.0/camunda-engine-feel-api-7.11.0.jar" sourcepath="M2_REPO/org/camunda/bpm/dmn/camunda-engine-feel-api/7.11.0/camunda-engine-feel-api-7.11.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/camunda/bpm/dmn/camunda-engine-feel-juel/7.11.0/camunda-engine-feel-juel-7.11.0.jar" sourcepath="M2_REPO/org/camunda/bpm/dmn/camunda-engine-feel-juel/7.11.0/camunda-engine-feel-juel-7.11.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/camunda/bpm/model/camunda-xml-model/7.11.0/camunda-xml-model-7.11.0.jar" sourcepath="M2_REPO/org/camunda/bpm/model/camunda-xml-model/7.11.0/camunda-xml-model-7.11.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/camunda/bpm/model/camunda-dmn-model/7.11.0/camunda-dmn-model-7.11.0.jar" sourcepath="M2_REPO/org/camunda/bpm/model/camunda-dmn-model/7.11.0/camunda-dmn-model-7.11.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/camunda/commons/camunda-commons-utils/1.7.1/camunda-commons-utils-1.7.1.jar" sourcepath="M2_REPO/org/camunda/commons/camunda-commons-utils/1.7.1/camunda-commons-utils-1.7.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/camunda/commons/camunda-commons-logging/1.7.1/camunda-commons-logging-1.7.1.jar" sourcepath="M2_REPO/org/camunda/commons/camunda-commons-logging/1.7.1/camunda-commons-logging-1.7.1-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
