@@ -4,7 +4,7 @@
  * https://www.hackerrank.com/challenges/reduced-string/problem
  */
 
-package com.yprakash.algorithms.strings;
+package algorithms.strings;
 
 public class CamelCase
 {

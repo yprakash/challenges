@@ -4,7 +4,7 @@
  * https://www.hackerrank.com/challenges/weighted-uniform-string/problem
  */
 
-package com.yprakash.algorithms.strings;
+package algorithms.strings;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

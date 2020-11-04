@@ -20,7 +20,7 @@ Limits: 0 <= K <= 100 and 1 <= N <= 2,147,483,647
 5, 1 => 3
  */
 
-package com.yprakash.contest.math;
+package math;
 
 public class CasinoChips
 {
